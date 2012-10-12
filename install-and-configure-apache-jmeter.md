@@ -2,9 +2,9 @@
 
 ## Overview
 
-1. Install Apache JMeter
-2. Configure Apache JMeter
-3. Resources
+1. [Install Apache JMeter](#install-apache-jmeter)
+2. [Configure Apache JMeter](#configure-apache-jmeter)
+3. [Resources](#resources)
 
 ## 1. Install Apache JMeter
 1. Download "apache-jmeter-2.8.tgz" or newer from http://jmeter.apache.org/download_jmeter.cgi and unpack the tarball.
