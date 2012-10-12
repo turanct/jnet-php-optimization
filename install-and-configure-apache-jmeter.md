@@ -24,35 +24,33 @@ After that the JMeter console should open successfully!
 1. Add a `Thread Group`: right click at "Test Plan", then click "Add" > "Threads (Users)" > "Thread Group".
 2. Change the following parameters:
 
-	`Name: Jnet Test Case`
-	`Number of Threads (users): 15` (= the number of individual "users")
-	`Ramp-Up Period (in seconds): 1` (= after which interval the next user requests will start)
-	`Loop Count: 2` (= how often will each user request a page)
+	Name: Jnet Test Case
+	Number of Threads (users): 15 (= the number of individual "users")
+	Ramp-Up Period (in seconds): 1 (= after which interval the next user requests will start)
+	Loop Count: 2 (= how often will each user request a page)
 
 In the next steps we will add 2 pages. This means one batch will request 2 pages x 15 users x 2 loops = 60 requests.
-
 3. Add `HTTP Request Defaults`: right click at "Jnet Test Case", then click "Add" > "Config Element" > "HTTP Request Defaults".
-
 4. Change the following parameters:
 
-	`Name: My Website`
-	`Server Name or IP: www.mywebsite.com`
+	Name: My Website
+	Server Name or IP: www.mywebsite.com
 
 5. Add a `HTTP Cookie Manager`: right click at "Jnet Test Case", then click "Add" > "Config Element" > "HTTP Cookie Manage".
 6. Add a `HTTP Request`: right click at "Jnet Test Case", then click "Add" > "Sampler" > "HTTP Request".
 7. Change the following parameters:
 
-	`Name: Homepage`
+	Name: Homepage
 
 8. Add a `HTTP Request`: right click at "Jnet Test Case", then click "Add" > "Sampler" > "HTTP Request".
 9. Change the following parameters:
 
-	`Name: Subpage`
-	`Path: /subpage`
+	Name: Subpage
+	Path: /subpage
 
 10. Add a `Graph Results` Listener: right click at "Jnet Test Case", then click "Add" > "Listener" > "Graph Results".
 11. Save your project.
-11. Test your setup by clicking on the Play button.
+12. Test your setup by clicking on the Play button.
 
 ## 3. Resources
 * [Apache JMeter Homepage](http://jmeter.apache.org)
