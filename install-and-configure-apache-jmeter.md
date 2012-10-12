@@ -10,11 +10,11 @@
 1. Download "apache-jmeter-2.8.tgz" or newer from http://jmeter.apache.org/download_jmeter.cgi and unpack the tarball.
 2. Verify if you have a proper version of Java (JVM 1.5 or higher) installed (basic JRE edition won't work) by opening a Windows Prompt window:
 
-    C:\>cd C:\Program Files\Java\jdk1.7.0_07\bin
-    C:\Program Files\Java\jdk1.7.0_07\bin>java -version
-    java version "1.7.0_07"
-    Java(TM) SE Runtime Environment (build 1.7.0_07-b11)
-    Java HotSpot(TM) 64-Bit Server VM (build 23.3-b01, mixed mode)
+	C:\>cd C:\Program Files\Java\jdk1.7.0_07\bin
+	C:\Program Files\Java\jdk1.7.0_07\bin>java -version
+	java version "1.7.0_07"
+	Java(TM) SE Runtime Environment (build 1.7.0_07-b11)
+	Java HotSpot(TM) 64-Bit Server VM (build 23.3-b01, mixed mode)
 
 3. Try to start Apache JMeter by double clicking `apache-jmeter-2.8\bin\jmeter.bat`. If you get an `errorlevel=9009` error, you are not using JDK. If you get an error `Unrecognized VM option '+HeapDumpOnOutOfMemoryError' Could not create the Java virtual machine. errorlevel=1` then comment the next line in the `jmeter.bat` file:
 	set DUMP=-XX:+HeapDumpOnOutOfMemoryError
@@ -30,7 +30,9 @@ After that the JMeter console should open successfully!
 	`Loop Count: 2` (= how often will each user request a page)
 
 In the next steps we will add 2 pages. This means one batch will request 2 pages x 15 users x 2 loops = 60 requests.
+
 3. Add `HTTP Request Defaults`: right click at "Jnet Test Case", then click "Add" > "Config Element" > "HTTP Request Defaults".
+
 4. Change the following parameters:
 
 	`Name: My Website`
