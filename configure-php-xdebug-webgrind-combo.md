@@ -2,12 +2,12 @@
 
 ## Overview
 
-1. Make sure apache and php are properly installed
-2. Install Xdebug
-3. Configure Xdebug
-4. Install Webgrind
-5. Configure Webgrind
-6. Secure Webgrind
+1. [Make sure apache and php are properly installed](#1-make-sure-apache-and-php-are-properly-installed)
+2. [Install Xdebug](#2-install-xdebug)
+3. [Configure Xdebug](#3-configure-xdebug)
+4. [Install Webgrind](#4-install-webgrind)
+5. [Configure Webgrind](#5-configure-webgrind)
+6. [Secure Webgrind](#6-secure-webgrind)
 
 ## 1. Make sure apache and php are properly installed
 **Not much to say about that...**
